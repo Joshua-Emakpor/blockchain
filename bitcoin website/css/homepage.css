@@ -1,0 +1,350 @@
+
+
+*{
+     margin: 0;
+}
+
+/* header styles */
+
+.one{
+     height: 30px;
+     margin-left: 10px;
+     width: auto;
+}
+
+.header-links .main{
+     text-decoration: none;
+     color: white;
+     margin: 0px 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pry .home{
+     margin-left: 15px;
+     background-color: rgb(42, 40, 40);
+     padding:20px 25px;
+     border-radius: 10px;
+     color: rgb(100, 100, 249);
+}
+
+.header-links {
+     color: white;
+     background-color: rgb(16, 14, 14);
+     display: flex;
+     /* padding-top:50px; */
+     align-items: center;
+     font-weight: bolder;
+     font-size:small;
+     align-self: center;
+     align-content: center;
+     text-align: center;
+     justify-self: center;
+     justify-items: center;
+     padding: 25px 0px 20px 10px ;
+}
+
+.diff{
+     margin-left: 10%;
+     justify-content: flex-end;
+}
+
+.diff a {
+     color: white ;
+     text-decoration: none;
+     margin: 20px;
+}
+
+.block {
+     display:none;
+}
+
+ .diff .drop:hover .diff img {
+     display:block;
+}
+
+/* body styles */
+
+.body{
+     background-image:
+      linear-gradient(to left bottom, 
+      rgba(27, 35, 27, 0.794), 
+      rgba(0, 0, 0, 0.978)),
+       url(../images/app-screen.png);
+     background-position: center;
+     height: 70vh;
+     /* transform: translate(-15%, -5%); */
+}
+
+.text h1 {
+     color: rgb(5, 169, 242);
+     font-family: sans-serif;
+}
+
+.small {
+     color: gray;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body{
+     display: block;
+     /* position: ; */
+     font-size: 1.1rem;
+}
+
+.text-register{
+     position: absolute;
+     top: 33%;
+     left: 4%;
+}
+
+.btn{
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bold;
+     font-size: 1.05rem;
+     padding:25px 90px;
+     background-image: linear-gradient(to right, rgb(79, 46, 225), rgb(187, 100, 187));
+     color: white;
+     border-radius: 50px;
+     margin-top: 30px;
+}
+
+.currencies{
+     overflow-x: hidden;
+     display: flex;
+     color: gray;
+     background-color: rgb(17, 16, 16);
+}
+
+@keyframes moveSlideshow {
+     100% { 
+       transform: translateX(-310.6666%);  
+     }
+   }
+
+.currency{
+     /* animation: slideInLeft  ease-out ; */
+     animation: moveSlideshow 10s linear infinite;
+     /* animation-timing-function: ease-out; */
+     display: flex;
+     margin-top: 20px;
+     padding : 20px;
+     position: relative;
+}
+
+
+
+.name {
+     font-size: 1.6rem;
+     /* margin-bottom: 10px; */
+     margin-right: 10px;
+     padding:10px;
+     font-family:    Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.value{
+     padding:10px;
+     color: white;
+     font-size: 2rem;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.currency hr {
+     color: black;
+}
+
+.rate{
+     margin-right: 10px;
+     color:rgb(230, 114, 114);
+}
+
+.sliding{
+     padding-top: 40px;
+     display: flex;
+     background-color: black;
+     justify-content: center;
+     height: 200px;
+}
+
+@keyframes slideInRight {
+     from {
+       /* transform: translate3d(-100%, 0, 0); */
+       transform: translate3d(200%, 0, 0);
+       visibility: visible;
+     }
+   
+     to {
+       /* transform: translate3d(0, 0, 0); */
+       transform: translate3d(0    , 0, 0);
+     }
+   }
+
+.images{
+     /* height: 20%; */
+     display: flex;
+     overflow-x: hidden;
+     width: 90%;
+}
+
+.simg {
+     /* animation-name: slideInRight;
+     animation-duration: 4s;
+     animation-iteration-count: infinite; */
+     /* height: 20%; */
+     border-radius: 30px;
+     padding:10px;
+}
+
+.aa, .bb, .cc{
+
+     animation-name: slideInRight;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+}
+
+.sometext{
+     background-color: black;
+     text-align: center;
+     padding-top: 10%;
+}
+
+.text-one{
+     color: white;
+     font-size: 3rem;
+}
+
+.text-two {
+     color: gray;
+     font-size: 1.7rem;
+}
+
+.things{
+     padding-top: 10%;
+     display:flex;
+     background-color: black;
+     justify-content: center;
+}
+
+.let{
+     display: flex;
+     text-transform: capitalize;
+     color: white;
+     align-items: center;
+     font-size: larger;
+     justify-content:flex-start;
+}
+
+.theimg img{
+     padding-left: 50px;
+     width: 500px;
+}
+
+
+.again{
+     display: grid;
+     color: white;
+     /* background-color: black; */
+     align-self: center;
+     text-align: center;
+     letter-spacing: 3px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding: 150px 150px;
+}
+
+.just-text{
+     background-color: black;
+     
+}
+
+.again h3 {
+     padding-top: 30px;
+     color: gray;
+     /* width: 400px; */
+     position: relative;
+}
+
+.cards{
+     background-color: black;
+}
+
+.card-div{
+     display: flex;
+     justify-content: center;
+}
+
+.crd{
+     width: 300px;
+     color: white;
+     background-color: rgba(37, 37, 37, 0.345);
+     border-radius: 20px;
+     margin: 30px;
+     align-self: center;
+     vertical-align: middle;
+     padding: 20px;
+     align-self: center;
+     text-align: center;
+     height:90vh;
+     /* width: 100%; */
+}
+
+.card-three img {
+     width:inherit;
+}
+
+.crd span {
+     color: gray;
+}
+
+.crd span h1{
+     margin: 40px 0px;
+     color: white;
+     font-size: medium;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.logc img {
+     width: 200px; 
+     margin-right: 50%; 
+}
+
+.logc {
+     display: flex;
+     padding: 40px 20px;
+     /* flex-direction: row; */
+     /* align-items: flex-end; */
+     /* justify-items: end; */
+     color: gray;
+     background-color: rgb(36, 34, 34);
+}
+
+.crc{
+     text-align: right;
+}
+
+.me{
+     color: gray;
+     width: 20px;
+}
+
+
+.tandc a{
+     color: gray;
+     text-decoration: none;
+     margin: 50px;
+     text-align: center;
+
+}
+
+.tandc nav{
+     display: flex;
+     align-items: center;
+     align-self: center;
+     justify-content: center;
+     background-color: rgb(36, 34, 34);
+     text-align: center;
+}
+
+.logc{
+     padding: 30px;
+}

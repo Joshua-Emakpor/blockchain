@@ -1,0 +1,92 @@
+
+
+*{
+     margin: 0;
+}
+
+body{
+     background-color: black;
+}
+
+/* header styles */
+
+.one{
+     height: 30px;
+     margin-left: 10px;
+     width: auto;
+}
+
+.header-links .main{
+     text-decoration: none;
+     color: white;
+     margin: 0px 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pry .market{
+     margin-left: 15px;
+     background-color: rgb(42, 40, 40);
+     padding:20px 25px;
+     border-radius: 10px;
+     color: rgb(100, 100, 249);
+}
+
+.header-links {
+     color: white;
+     background-color: rgb(16, 14, 14);
+     display: flex;
+     /* padding-top:50px; */
+     align-items: center;
+     font-weight: bolder;
+     font-size:small;
+     align-self: center;
+     align-content: center;
+     text-align: center;
+     justify-self: center;
+     justify-items: center;
+     padding: 25px 0px 20px 10px ;
+}
+
+.diff{
+     margin-left: 10%;
+     justify-content: flex-end;
+}
+
+.diff a {
+     color: white ;
+     text-decoration: none;
+     margin: 20px;
+}
+
+.block {
+     display:none;
+}
+
+ .diff .drop:hover .diff img {
+     display:block;
+}
+
+
+.list{
+     margin-top: 50px ;
+     display: flex;
+     justify-content: center;
+}
+
+.val {
+     color: white;
+     text-align: center;
+     font-size: large;
+     font-family: sans-serif;
+}
+
+.pair-value {
+     padding: 30px;
+}
+
+.ex{
+     background-image: linear-gradient(to left, blue, purple);
+     margin: 15px;
+     border-radius: 50px;
+     padding: 20px;
+}

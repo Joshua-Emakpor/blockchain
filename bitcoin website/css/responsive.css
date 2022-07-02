@@ -1,0 +1,135 @@
+
+
+.logd {
+     display: none;
+     background-color: black;
+     color: gray;
+}
+
+.home{
+     display: none;
+     /* background-color: black; */
+     text-align: center;
+     align-self: center;
+     align-items: center;
+     justify-content: center;
+     padding: 2%;
+     width:100%;
+     height:18%;
+     position:fixed;
+     transform: translate(-50%, -50%);
+     top: 90%;
+     left: 50%;
+     border-radius: 10px;
+}
+
+
+
+
+.home-things {
+     background-color: rgba(128, 128, 128, 0.452);
+     display: flex;
+     border-radius: 20px;
+}
+
+.h11{
+     position: sticky;
+     color: white;
+     border-radius: 10px;
+     margin: 0px ;
+     padding: 20px 80px ;
+     /* background-color: gray; */
+     /* margin: 10%; */
+}
+
+.lo,.loo, .looo {
+     padding: 20px;
+}
+
+.lo{
+     margin-left:60%;
+
+}
+
+.Acurrencies{
+     display: none;
+}
+
+.buttonMore {
+     display: none;
+}
+
+@media only screen and (max-width: 1020px){
+     
+     .Acurrency{
+          justify-content: center;
+          margin: 30px;
+          padding: 20px;
+          border-radius: 30px;
+          display: flex;
+          background-color: rgba(128, 128, 128, 0.32);
+     }
+
+     .Aname {
+          color: lightblue;
+     }
+
+     .Avalue{
+          color: white;
+     }
+
+     .Acurrencies{
+          font-size: .8rem;
+          padding: 40px 0;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          background-color: black;
+          justify-content: center;
+          align-self: center;
+          text-align: center;
+          /* margin: 5%; */
+          display: block;
+     }
+
+     .Arate {
+          margin-left: 50%;
+          color:red;
+     }
+
+     .buttonMore{
+          background-color: black;
+          padding-bottom: 100px;
+          display:flex;
+          justify-content: center;
+     }
+
+     .bM {
+          background-color: black;
+          color: blue;
+          font-size: 1.3rem;
+          padding:10% 20px;
+          border-radius: 10px;
+          border: 2px solid blue ;
+          font-weight: 300;
+     }
+
+     .all{
+          display: none;
+     }
+
+     .logd{
+          display:flex;
+          position: fixed;
+          width: 100%;
+          z-index: 1;
+     }
+
+     .home{
+          display: flex;
+     }
+
+
+     .body, .currencies, .sometext, .things, .card-div, .just-text, .foot{
+          display: none;
+     }
+
+}
