@@ -1,0 +1,71 @@
+*{
+     margin: 0px;
+}
+
+.head{
+     background-image: linear-gradient(to right, black , rgba(52, 51, 51, 0.768));
+     color:white;
+     display: flex;
+     height:10vh;
+     position: fixed;
+     width: 100%;
+     align-self: center;
+     align-items: center;
+     
+}
+
+/* image and logo s */
+.img-logo{
+     display:flex;
+     align-items: center;
+     align-self: center
+}
+
+/* logo image  */
+
+.logo-img{
+     width: 10vh;
+     padding: 0px  20px;
+     margin: 0px;
+}
+
+/* title associated with logo  */
+
+.title{
+     font-family: cursive;
+     font-size: 1.3rem;
+     letter-spacing: 5px;
+}
+
+/* login and sign up button */
+
+.log-in-up{
+     margin-left:60vw;
+     text-decoration: none;
+     
+     display: flex;
+     align-items: center;
+}
+
+.login{
+     margin-right: 20px;
+     display: block;
+     list-style: none;
+     text-decoration: none;
+     color: gold;
+     text-align: center;
+     padding: 10px 20px;
+     align-self: center;
+     transition: all .4s ease;
+}
+
+.login:hover{
+     border: 2px solid gold;
+     border-radius: 30px;
+}
+
+.signup-btn {
+     background-color: gold;
+     padding: 10px 20px;
+     display:block;
+}

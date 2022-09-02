@@ -1,0 +1,44 @@
+.gen-market{
+     background-image: linear-gradient(to right, black, gray );
+}
+
+
+
+.all-cur{
+     display: grid;
+     grid-template-columns: 1fr;
+     text-align: center;
+     margin:50px;
+}
+
+.cur{
+     display: flex;
+     padding: 30px 30px;
+     justify-content: space-between;
+}
+
+.hd{
+     font-size: 1.2rem;
+}
+
+.value {
+     color: yellow
+}
+
+.name {
+     font-size: 1.4rem;
+     
+}
+
+.dummy {
+     background-image: linear-gradient(to left, rgba(255, 217, 0, 0.427), black);
+     padding: 5px 17px;
+     border-radius: 20px;
+     font-weight: bolder;
+}
+
+.dummy:hover{
+     padding: 7px 20px;
+     transition: all .3s ease;
+     font-weight: bold;
+}

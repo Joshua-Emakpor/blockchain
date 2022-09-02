@@ -1,0 +1,45 @@
+
+.mission{
+     text-align: center;
+}
+
+.mission-title{
+     margin-top: 20px;
+     color: gold;
+     font-size: xx-large
+}
+
+.mt {
+     display: flex;
+     margin: 20vh;
+     align-items: center;
+     font-family: cursive;
+     font-size: x-large;
+}
+
+.mt img {
+     margin:0px 10vh;
+     height: 50vh;
+}
+/* goals */
+.goals{
+     list-style:circle;
+}
+
+.goals-title{
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     letter-spacing: 6px;
+     text-decoration: underline;
+     text-decoration-style: double;
+     text-decoration-color: goldenrod;
+     font-size: xx-large;
+}
+
+.goal{
+     display: flex;
+     margin: 40px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: larger;
+     letter-spacing: 4px;
+}

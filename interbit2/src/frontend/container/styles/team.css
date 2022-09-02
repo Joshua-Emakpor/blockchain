@@ -1,0 +1,13 @@
+
+.team {
+     text-align: center;
+     /* align-self: center; */
+}
+
+.team-title{
+     font-size: x-large;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin: 30px;
+     text-decoration: underline gold;
+}
+

@@ -1,0 +1,98 @@
+.log {
+     background-color : rgb(18, 16, 2);
+     height: 100vh;
+     align-self: center;
+     text-align: center;
+     /* display: grid;
+     grid-template-columns: 1fr 1fr  1fr; */
+}
+
+.login-input{
+     display: block;
+     text-align: center;
+     padding: 0px;
+     margin: 0px;
+     align-self: center;
+}
+.login-input hr{
+     /* margin: 0px 60vh; */
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-self: center;
+}
+
+.login-img{
+     display: flex;
+     justify-content: left;
+}
+
+.login-img img{
+     margin: 0px;
+     padding: 0px;
+     width: 100px
+}
+
+.input{
+     margin: 30px;
+     padding: 20px;
+}
+
+.log-in-button{
+     align-self: center;
+     text-align: center;
+     background-color: goldenrod;
+     padding: 10px 50px;
+     border-radius: 30px;
+     cursor: pointer;
+}
+
+.login-params{
+     display: flex;
+     justify-content: center;
+}
+
+.login-unit{
+     text-align: center
+}
+
+.options{
+     align-self: center;
+     text-align: center;
+     margin-left: 50px;
+     justify-content: center;
+}
+
+.signup-link{
+     text-decoration: none;
+     list-style: none;
+     color: gold;
+     font-size: larger;
+}
+
+/* sign up */
+
+.signup-input{
+     display: flex;
+     justify-content: center;
+}
+
+.sign hr {
+     margin: 0px 50vh
+}
+
+.signup-img img {
+     width: 100px;
+}
+
+.sgn {
+     color: gold;
+     font-size: larger;
+     letter-spacing: 5px;
+     margin: 20px
+}
+
+.signup-img {
+     display: flex;
+     justify-content: space-between;
+}

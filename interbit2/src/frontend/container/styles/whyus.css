@@ -1,0 +1,38 @@
+
+.after-body{display:block;position: unset;padding:30px 0px 0px 0px}
+
+.whyus{
+     text-align: center;
+     display: block
+}
+
+.why{
+     font-size: xx-large;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     letter-spacing:10px;
+     padding-top: 30px;
+}
+
+.y-card {
+     display: flex;
+     margin: 20px 30px;
+     justify-content: center;
+}
+
+.why-card {
+     border: 2px solid rgba(255, 217, 0, 0.554);
+     text-align:center;
+     background-image: linear-gradient(to right, black , rgb(49, 46, 26));
+     width: 50vh;
+     padding: 50px 10px;
+     box-shadow: 2px 2px 8px 2px  rgba(255, 255, 255, 0.638);
+     margin: 30px;
+}
+
+.yy{
+     font-size: large;
+}
+
+.Y-card1 img {
+     padding: 20px 0px;
+}

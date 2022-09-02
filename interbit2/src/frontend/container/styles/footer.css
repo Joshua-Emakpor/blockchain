@@ -1,0 +1,21 @@
+
+.foot {
+     margin-top: 20vh;
+     text-align: center;
+     padding: 30px;
+     color: gray;
+     background-color: black;
+}
+.foot nav ul{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.foot nav ul li a{
+     /* color: white; */
+     color: gray;
+     list-style: none;
+     text-decoration: none;
+}
+
+.foot nav ul li{list-style: none;}
